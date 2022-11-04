@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Charis+SIL&family=Montserrat:wght@500&family=Nuosu+SIL&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;1,100&family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #381fd1;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:#f6f6eb;
+    text-decoration: none;
+}
+
+
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color:#605fcc;
+}
+
+a:hover {
+    border: 2px solid white;
+}
+
+nav {
+    padding: 30px 15%;
+
+}
+
+.navlinks {
+    list-style:none;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.cta {
+    background-color: #eee;
+    color: #381fd1;
+} 
+
+a {
+    padding: 4px 8px; 
+    border-radius: 5px;
+}
+
+.pageContent {
+    padding-left: 7%;
+    display: flex;
+}
+
+.textContent {
+   padding-top: 5rem;
+   width: 60%;
+}
+
+.pageImages img {
+    max-width:100%;
+    height: auto;
+}
+
+.heading{
+    color: #fedb62;
+    font-family: "Arimo";
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.heading2{
+    font-family: "Arimo";
+    font-weight:600;
+    font-size: 5.5em;
+    color: #f6f6eb;
+}
+
+.heading3{
+    font-family: "Arimo";
+    font-weight:600;
+    font-size: 5.5em;
+    color: #f6f6eb;
+    margin-bottom: 2rem;
+    
+}
+
+
+.text {
+    color: #f6f6eb;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1em;
+    line-height: 150%;
+}
+
+.btn {
+    margin-top: 5%;
+}
+
+.btn button {
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 1.2em;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+
+#btn1 {
+    color: #4b4b4e;
+    background-color: #fedb62;
+    border: none;
+}
+#btn1:hover{
+    background-color: #d6bf69;
+}
+
+#btn2{
+    border: 2px solid #fedb62;
+    color: #fedb62;
+    background: none;
+}
+#btn2:hover {
+    background-color: #fedb62;
+    color: #4b4b4e;
+}
+
+.belowP1 {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+
+#P1text {
+    font-family: "Arimo";
+    font-weight:600;
+    font-size: 4em;
+    color: #221574;
+    
+}
+#P1text2 {
+    font-family: "Arimo";
+    font-weight:600;
+    font-size: 4em;
+    color: #221574;
+}
