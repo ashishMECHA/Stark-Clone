@@ -229,6 +229,7 @@ a {
 }
 .container2 {
     background-color:#f6f6eb;
+    padding-bottom: 2rem;
    
 }
 
@@ -264,6 +265,26 @@ a {
     color: #11284b;
     text-align: center;
     margin-bottom: 1.3rem;
+}
+.belowCustomers{
+    font-family: "Arimo";
+    font-weight:600;
+    font-size: 3em;
+    color: #11284b;
+    text-align: center;
+}
+
+.pageImage{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.logos{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    
 }
 
 /*########################### FOOTER ####################*/
@@ -331,7 +352,7 @@ ul {
     margin-top: 0.3125rem;
   }
   input[type="submit"] {
-    background-color: #00d188;
+    background-color:#fedb62;
     color: #fff;
     cursor: pointer;
     border: 0;
